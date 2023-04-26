@@ -1,0 +1,325 @@
+.successMessage {
+  position: relative;
+  top: 110vh;
+}
+
+.successMessage h6 {
+  font-size: 1.3em;
+  position: relative;
+  left: 37vw;
+}
+
+.successMessage span {
+  position: relative;
+  left: 37vw;
+  text-align: center;
+}
+.successMessage p {
+  position: relative;
+  text-align: center;
+}
+
+.interludeImage img {
+  width: 49vw;
+  margin-right: 1vw;
+  border-radius: 10px;
+}
+
+.testimonial {
+  position: relative;
+  top: 15vh;
+}
+
+.carousel {
+  /* background-color: aqua; */
+  height: 60vh;
+  position: relative;
+  top: 18vh;
+}
+
+.findUs {
+  /* background-color: yellow; */
+  height: 100vh;
+  position: relative;
+  top: 45vh;
+  display: flex;
+}
+
+.findUs div {
+  width: 50vw;
+  height: 100vh;
+  /* border: 1px solid black; */
+}
+
+.findUs div img {
+  width: 30vw;
+  height: 80vh;
+  border-radius: 10px;
+  position: relative;
+  left: 5vw;
+}
+
+.findUs div span,
+h4,
+h1 {
+  position: relative;
+  left: 10vw;
+  /* top: 10vh; */
+  margin-top: 10vh;
+}
+
+.findUs span {
+  line-height: 1.5;
+}
+
+.findUs div h4 {
+  color: red;
+}
+
+.contactUs {
+  /* background-color: yellow; */
+  height: 100vh;
+  position: relative;
+  top: 45vh;
+  display: flex;
+}
+
+.contactUs div {
+  width: 50vw;
+  height: 100vh;
+  /* border: 1px solid black; */
+}
+
+.contactUs div img {
+  width: 30vw;
+  height: 80vh;
+  border-radius: 10px;
+  position: relative;
+  left: 5vw;
+}
+
+.contactUs div h4,
+h1 {
+  position: relative;
+  left: 10vw;
+  /* top: 10vh; */
+  margin-top: 1vh;
+}
+
+.contactUs div h4 {
+  margin-top: 8vh;
+}
+
+.contactUs div h1 {
+  bottom: 3vh;
+}
+
+.contactUs {
+  line-height: 1.5;
+}
+
+.contactUs div h4 {
+  color: red;
+}
+
+.contactUs ul {
+  list-style-type: none;
+  position: relative;
+  left: 7vw;
+}
+
+.contactUs ul li:nth-child(1),
+li:nth-child(4) {
+  font-weight: 700;
+}
+
+.contactUs li:nth-child(4) {
+  margin-top: 5vh;
+}
+
+.allform {
+  height: "90vh";
+  position: relative;
+  right: 10vw;
+}
+.allform ul {
+  position: relative;
+  top: 6vh;
+}
+
+.allform h6 {
+  position: relative;
+  left: 20vw;
+}
+
+.allform li {
+  /* border: 1px solid black; */
+  height: 20vh;
+  margin-top: -5vh;
+}
+
+.allform li:nth-child(4) {
+  margin-top: -19vh;
+}
+
+.allform li span {
+  position: relative;
+  left: 0vw;
+  bottom: 6vh;
+}
+
+.allform li .nameField,
+.emailField,
+.phoneField {
+  position: relative;
+  left: -3.5vw;
+  height: 4vh;
+  top: 1vh;
+  width: 27vw;
+  border: none;
+  border-bottom: 1px solid black;
+  font-size: 0.8em;
+}
+
+.allform li .nameLabel,
+.emailLabel,
+.phoneLabel {
+  font-weight: bold;
+}
+
+.allform li:nth-child(1) {
+  font-weight: lighter;
+}
+
+.allform li .commentsField {
+  height: 17vh;
+  position: relative;
+  left: -5.8vw;
+  top: 15vh;
+  width: 27vw;
+  resize: none;
+  border: none;
+  border-bottom: 1px solid black;
+  font-size: 1em;
+}
+
+.allform li .nameError,
+.emailError,
+.phoneError,
+.commentsError {
+  color: red;
+  font-size: 0.8em;
+  position: relative;
+  right: 3vw;
+  top: 1.5vh;
+  font-weight: lighter;
+}
+
+.submit {
+  width: 6vw;
+  height: 5vh;
+  /* background-color: coral; */
+  position: relative;
+  top: 20vh;
+  left: 10vw;
+  border-radius: 4px;
+  font-weight: 100;
+}
+
+footer {
+  background-color: rgba(1, 1, 32, 0.842);
+  height: 80vh;
+  width: 100vw;
+  position: relative;
+  top: 350vh;
+}
+
+footer img {
+  width: 350px;
+  position: relative;
+  top: 30vh;
+}
+
+footer table {
+  position: relative;
+  left: 35vw;
+  top: 5vh;
+  color: white;
+  /* font-size: 1.2em; */
+}
+
+footer table tbody tr:nth-child(3) {
+  margin-bottom: 10vh;
+  height: 14vh;
+}
+
+footer table thead {
+  height: 6vh;
+}
+
+footer table tbody td {
+  width: 20vw;
+}
+
+.address {
+  position: relative;
+  bottom: 24.5vh;
+  left: 75vw;
+  color: white;
+  list-style-type: none;
+}
+
+.address li {
+  margin-bottom: 2vh;
+}
+
+.address li img {
+  width: 25px;
+  /* position: relative;
+    bottom: 1vh; */
+}
+
+.container {
+  /* border: 1px solid black; */
+  position: relative;
+  left: 5vw;
+  width: 90vw;
+  height: 70vh;
+}
+
+.container div {
+  width: 28vw;
+  height: 65vh;
+  /* border: 1px gold solid; */
+  position: relative;
+}
+
+.container article {
+  width: 25vw;
+  min-height: 32vh;
+  /* border: 1px solid black; */
+  position: relative;
+  left: 2vw;
+  text-align: center;
+  cursor: pointer;
+}
+
+.container section {
+  position: relative;
+  left: 45%;
+}
+
+.container figure {
+  width: 5vw;
+  border-radius: 50px;
+  height: 11vh;
+
+  /* border: 1px solid black; */
+  position: relative;
+  top: 0vh;
+  left: 32%;
+}
+
+.activeTile {
+  visibility: visible;
+}

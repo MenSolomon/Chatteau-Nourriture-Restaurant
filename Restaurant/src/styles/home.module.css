@@ -1,0 +1,532 @@
+.containerDiv {
+  animation: move forwards infinite 10s;
+}
+
+@keyframes move {
+  0% {
+    transform: scale(1);
+    transition: ease-in-out;
+    overflow-x: hidden;
+  }
+
+  100% {
+    transform: scale(1.2);
+    transition: ease-in-out;
+    overflow-block: hidden;
+  }
+}
+
+.menuList {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  font-weight: 600;
+  color: black;
+  font-size: 1.1em;
+  position: relative;
+  left: 45vw;
+  top: 6vh;
+}
+
+.menuList li {
+  margin-right: 4vw;
+  cursor: pointer;
+}
+
+.menuList li:nth-child(2) {
+  color: #333;
+}
+
+.menuList li:nth-child(2)select:hover,
+.menuList li:nth-child(2)select:focus {
+  border-color: #555;
+}
+
+.menuList li:nth-child(5) {
+  border: 3px solid white;
+  padding-top: 2px;
+  width: 9vw;
+  height: 3.5vh;
+  text-align: center;
+}
+
+.welcomeAddress {
+  /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+  position: relative;
+  display: grid;
+  place-items: center;
+  top: 40vh;
+  font-size: 2.5em;
+  color: white;
+  font-weight: 600;
+  text-align: center;
+}
+
+.informationPage {
+  height: 100vh;
+  position: relative;
+  top: 100vh;
+  margin-left: 8vw;
+}
+
+.miniAlert {
+  color: rgba(228, 4, 4, 0.856);
+  font-weight: 600;
+}
+
+.miniAlert div {
+  width: 3vw;
+  height: 0.3vh;
+  background-color: rgba(228, 4, 4, 0.856);
+  position: relative;
+  bottom: 1.5vh;
+  left: 12vw;
+}
+
+.informationPage h1 {
+  color: rgba(117, 3, 3, 0.705);
+}
+
+.welcomeContent {
+  text-align: justify;
+  line-height: 1.5;
+}
+
+.informationPage button {
+  background-color: rgba(228, 4, 4, 0.856);
+  color: white;
+  border: 1px solid black;
+  position: relative;
+  top: 4vh;
+  height: 5vh;
+  width: 7vw;
+}
+
+.burgerImage {
+  width: 550px;
+  height: 700px;
+  position: absolute;
+  bottom: 0vh;
+  left: 45vw;
+  border-radius: 10px;
+}
+
+.steamedImage {
+  width: 550px;
+
+  position: absolute;
+  bottom: -20vh;
+  left: 45vw;
+  border-radius: 10px;
+}
+
+.exclusiveImage {
+  width: 550px;
+  position: absolute;
+  left: -0.7vw;
+  top: 63vh;
+  border-radius: 10px;
+  opacity: 0;
+}
+
+.imageIntersection {
+  animation: imageMove 2s forwards ease-in-out;
+}
+
+@keyframes imageMove {
+  0% {
+    position: absolute;
+    top: 75vh;
+    opacity: 0.5;
+    transition: ease-in-out;
+  }
+
+  100% {
+    position: absolute;
+    top: 63vh;
+    opacity: 1;
+    transition: ease-in-out;
+  }
+}
+
+.foodMenu {
+  position: absolute;
+  top: 270vh;
+  height: 70vh;
+}
+
+.menuTable {
+  margin-left: -2vw;
+  list-style-type: none;
+  display: flex;
+}
+
+.menuTable li {
+  margin-right: 5vw;
+}
+
+.menuTable table {
+  /* border: 1px solid black; */
+  width: 29vw;
+  height: 45vh;
+}
+
+.menuTable thead {
+  position: relative;
+  left: 8vw;
+  font-size: 1.7em;
+}
+
+.menuTable td span {
+  font-size: 0.8em;
+}
+
+.menuTable tr td:nth-child(2) {
+  color: red;
+}
+
+.menuButtons {
+  left: 40vw;
+  position: relative;
+  top: 4vh;
+  opacity: 0;
+}
+
+.menuButtons button:nth-child(1) {
+  margin-right: 2vw;
+}
+
+.menuButtons button {
+  height: 5vh;
+  border-radius: 0px;
+  border: 2px solid black;
+}
+
+.menuButtonsMovement {
+  animation: buttonMovement 1.9s forwards ease-in-out;
+}
+
+@keyframes buttonMovement {
+  0% {
+    position: relative;
+    top: 8vh;
+    opacity: 0;
+    transition: ease-in-out;
+  }
+
+  100% {
+    position: relative;
+    top: 0vh;
+    opacity: 1;
+    transition: ease-in-out;
+  }
+}
+
+.menu1Static {
+  opacity: 0;
+}
+
+.menu1Movement {
+  animation: menumovement1 1.5s forwards ease-in-out;
+}
+
+@keyframes menumovement1 {
+  0% {
+    position: relative;
+    top: 9vh;
+    opacity: 0;
+    transition: ease-in-out;
+  }
+
+  100% {
+    position: relative;
+    top: 0vh;
+    opacity: 1;
+    transition: ease-in-out;
+  }
+}
+
+.menu2Movement {
+  animation: menumovement2 1.8s forwards ease-in-out;
+}
+
+@keyframes menumovement2 {
+  0% {
+    opacity: 0;
+  }
+
+  20% {
+    position: relative;
+    opacity: 0;
+    top: 9vh;
+    transition: ease-in-out;
+  }
+
+  100% {
+    position: relative;
+    top: 0vh;
+    opacity: 1;
+    transition: ease-in-out;
+  }
+}
+
+.menu3Movement {
+  animation: menumovement3 2.1s forwards ease-in-out;
+}
+
+@keyframes menumovement3 {
+  0% {
+    opacity: 0;
+  }
+
+  40% {
+    position: relative;
+    opacity: 0;
+    top: 9vh;
+    transition: ease-in-out;
+  }
+
+  100% {
+    position: relative;
+    top: 0vh;
+    opacity: 1;
+    transition: ease-in-out;
+  }
+}
+
+.menuInfoPics {
+  list-style-type: none;
+  display: flex;
+  position: relative;
+  top: 15vh;
+}
+
+.menuInfoPics li img {
+  width: 46.5vw;
+  height: 90vh;
+}
+
+.menuInfoPics li:nth-child(1) img {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.menuInfoPics li:nth-child(2) img {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.menuInfoPics li figcaption {
+  position: relative;
+  bottom: 25vh;
+  color: white;
+}
+
+.menuInfoPics li figcaption span:nth-child(1) {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 1.6em;
+  cursor: pointer;
+}
+
+.menuInfoPics li figcaption span:nth-child(2) {
+  font-size: 1.8em;
+  font-weight: 600;
+  color: orangered;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.menuInfoPics li figcaption span:nth-child(3) {
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 0.75em;
+  cursor: pointer;
+}
+
+/* .menuInfoPics li:nth-child(1) figcaption {
+  position: relative;
+  left: 37vw;
+} */
+
+.philosophyContainer {
+  min-height: 100vh;
+  /* border: 1px solid red; */
+  position: relative;
+  top: 25vh;
+  display: flex;
+}
+
+.philosophyContainer h1 {
+  position: relative;
+  left: 0;
+}
+
+.philosophyContainer div {
+  min-height: 80vh;
+  width: 47vw;
+  /* border: 1px solid green; */
+}
+
+.philosophyContainer div:nth-child(2) {
+  margin-left: 3vw;
+}
+
+.philosophyContainer div:nth-child(2) span {
+  color: red;
+  font-size: 1.3em;
+  line-height: 1.2;
+}
+
+.philosophyContainer div:nth-child(2) h1 {
+  font-size: 2.5em;
+}
+
+.philosophyContainer div:nth-child(2) p {
+  width: 40vw;
+  line-height: 1.2;
+}
+
+.philosophyContainer div:nth-child(2) ol {
+  width: 37vw;
+  line-height: 1.2;
+}
+
+.philosophyContainer div:nth-child(2) ol li:nth-child(2) {
+  margin-top: 5vh;
+}
+
+.philosophyContainer div:nth-child(1) img:nth-child(1) {
+  width: 350px;
+  float: right;
+  border-radius: 10px;
+}
+
+.philosophyContainer div:nth-child(1) img:nth-child(2) {
+  width: 350px;
+  float: right;
+  border-radius: 10px;
+  height: 500px;
+  z-index: -1;
+  position: relative;
+  bottom: 50vh;
+  right: 12vw;
+}
+
+.foodMenu .footer {
+  position: relative;
+  top: 25vh;
+  display: flex;
+}
+
+.foodMenu .footer img {
+  width: 50vw;
+  height: 70vh;
+}
+
+.bookATable {
+  position: relative;
+  bottom: 20vh;
+  font-size: 1.5em;
+  color: white;
+}
+
+.bookATable span:nth-child(1) {
+  position: relative;
+  left: 40vw;
+  bottom: 15vh;
+  color: orangered;
+}
+
+.bookATable span:nth-child(2) {
+  font-size: 2.2em;
+  position: relative;
+  left: 32vw;
+  bottom: 14vh;
+}
+
+.bookATable select,
+input {
+  width: 15vw;
+  position: relative;
+  right: 10vw;
+  font-size: 0.65em;
+  margin-right: 1.5vw;
+  height: 4vh;
+}
+.bookATable select {
+  font-size: 0.6em;
+  height: 4.4vh;
+}
+
+.bookATable button {
+  height: 6vh;
+  width: 10vw;
+  background-color: orangered;
+  /* border: 1px solid red; */
+  color: white;
+  position: relative;
+  right: 10vw;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: rgba(1, 1, 32, 0.842);
+  height: 80vh;
+  width: 100vw;
+  /* position: absolute;
+  top: -200vh; */
+}
+
+footer img {
+  width: 350px;
+  position: relative;
+  top: 30vh;
+}
+
+footer table {
+  position: relative;
+  left: 35vw;
+  top: 5vh;
+  color: white;
+  /* font-size: 1.2em; */
+}
+
+footer table tbody tr:nth-child(3) {
+  margin-bottom: 10vh;
+  height: 14vh;
+}
+
+footer table thead {
+  height: 6vh;
+}
+
+footer table tbody td {
+  width: 20vw;
+}
+
+.address {
+  position: relative;
+  bottom: 24.5vh;
+  left: 75vw;
+  color: white;
+  list-style-type: none;
+}
+
+.address li {
+  margin-bottom: 2vh;
+}
+
+.address li img {
+  width: 25px;
+  /* position: relative;
+  bottom: 1vh; */
+}
+
+/* .address li:nth-child(2) img {
+  position: absolute;
+  bottom: 100vh;
+} */

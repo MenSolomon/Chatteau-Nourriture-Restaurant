@@ -1,0 +1,35 @@
+.container {
+  border: 1px solid black;
+
+  width: 90vw;
+  height: 70vh;
+}
+
+.container div {
+  width: 28vw;
+  height: 65vh;
+  border: 1px gold solid;
+  position: relative;
+}
+
+.container article {
+  width: 28vw;
+  height: 40vh;
+  border: 1px solid black;
+}
+
+.container section {
+  position: relative;
+  left: 45%;
+}
+
+.container figure {
+  width: 5vw;
+  border-radius: 50px;
+  height: 11vh;
+
+  border: 1px solid black;
+  position: relative;
+  top: 0vh;
+  left: 32%;
+}
